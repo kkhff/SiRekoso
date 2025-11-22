@@ -61,16 +61,15 @@ Proyek ini dibangun murni menggunakan **Python**.
 
 ## Struktur File Proyek
 
-| File/Direktori | Deskripsi | Catatan Git |
-| :--- | :--- | :--- |
-| `main.py` | File utama yang menjalankan *loop* aplikasi dan menampilkan menu. | Komit/Push |
-| `core/analysis.py` | Logika perhitungan keuangan, `get_financial_summary()`, dan Mode Hemat. | Komit/Push |
-| `core/data_manager.py` | Bertanggung jawab untuk memuat dan menyimpan data dari file JSON. | Komit/Push |
-| `core/expenses.py` | Fungsi untuk menambah, mengedit, menghapus, dan menampilkan laporan pengeluaran. | Komit/Push |
-| `core/helpers.py` | Utilitas (format Rupiah, validasi input) dan **Lokalisasi Bahasa**. | Komit/Push |
-| `config/settings.json` | Menyimpan konfigurasi pengguna (Anggaran, Limit Harian, Mode Bahasa, Mode Hemat). | **Dibuat Otomatis saat Program Dijalankan.** |
-| `data/records.json` | Menyimpan semua riwayat transaksi/pengeluaran. | **Dibuat Otomatis saat Program Dijalankan.** |
-
+| File/Direktori | Deskripsi |
+| :--- | :--- | 
+| `main.py` | File utama yang menjalankan *loop* aplikasi dan menampilkan menu. | 
+| `core/analysis.py` | Logika perhitungan keuangan, `get_financial_summary()`, dan Mode Hemat. | 
+| `core/data_manager.py` | Bertanggung jawab untuk memuat dan menyimpan data dari file JSON. | 
+| `core/expenses.py` | Fungsi untuk menambah, mengedit, menghapus, dan menampilkan laporan pengeluaran. | 
+| `core/helpers.py` | Utilitas (format Rupiah, validasi input) dan **Lokalisasi Bahasa**. | 
+| `config/settings.json` | Menyimpan konfigurasi pengguna (Anggaran, Limit Harian, Mode Bahasa, Mode Hemat). | 
+| `data/records.json` | Menyimpan semua riwayat transaksi/pengeluaran. | 
 
 
 ## Kontribusi
