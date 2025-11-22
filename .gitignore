@@ -11,12 +11,3 @@ __pycache__/
 .DS_Store       # macOS generated files
 .vscode/        # Visual Studio Code workspace configuration
 
-# =========================================================
-# IGNORING LOCAL DATA AND USER SETTINGS
-# =========================================================
-
-# Local transaction history (Financial data)
-data/records.json
-
-# User-specific settings (Budget, Cycle Date, Mode Hemat)
-config/settings.json
